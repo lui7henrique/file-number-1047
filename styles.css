@@ -1,16 +1,18 @@
 body {
   background: black;
+
+
+
 }
 
 .typing {
   white-space: nowrap;
   overflow: hidden;
   font-family: monospace;
-  font-size: 1em;
+  font-size: 0.9em;
   color: white;
+  max-width: 100vw;
 }
-
-
 
  #first {
   width: 22ch;

@@ -11,8 +11,4 @@ elementClasses.forEach(async (elementClass, index) => {
   setTimeout(() => {
     el.style.display = "block";
   }, delay);
-
-  if (index === elementClasses.length - 1) {
-    console.log("fecha");
-  }
 });
